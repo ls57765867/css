@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777;
+  padding: 10px;
+}
+
+.header {
+  height: 95vh;
+  position: relative;
+  background-image: linear-gradient(
+      to right,
+      rgba(128, 214, 113, 0.7),
+      rgba(39, 180, 133, 0.5)
+    ),
+    /* url("./img/background.webp"),  */ url("./img/temp-01.png");
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+
+  /* clip-path: ellipse(50% 50%); */
+}
+
+.header-logo {
+  height: 50px;
+
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  text-align: center;
+}
+
+.header-title-box {
+  width: 900px;
+  margin: 0 auto;
+  vertical-align: middle;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.header-title {
+  font-size: 60px;
+  letter-spacing: 60px;
+}
+.header-sub-title {
+  font-size: 20px;
+  text-transform: uppercase;
+}
